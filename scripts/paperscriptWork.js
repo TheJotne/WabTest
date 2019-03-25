@@ -43,7 +43,10 @@ function onFrame(){
         
         
     }
-    
+    function onMouseDown(event) {
+        vectorStart=event.point;
+      }
+       
 
 
 
