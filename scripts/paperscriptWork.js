@@ -29,7 +29,7 @@ function onFrame(){
         }
         vectorTo= vectorStart - path.firstSegment.point;
             path.firstSegment.point+= vectorTo / 30;
-            for (var i = 0; i < points - 1; i++) {
+            for (var i = 0; i < points ; i++) {
                 var segment = path.segments[i];
                 var nextSegment = segment.next;
                 var vector = segment.point - nextSegment.point;
